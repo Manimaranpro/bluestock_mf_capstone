@@ -1,0 +1,11 @@
+# Ignore local Python environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore local database files to avoid uploading large binary databases to GitHub
+data/db/*.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
