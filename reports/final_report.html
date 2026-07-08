@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project I Final Report</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #FAFAFA;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #FFFFFF;
+            padding: 40px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #1F4E79;
+            border-bottom: 2px solid #1F4E79;
+            padding-bottom: 10px;
+            font-size: 28px;
+            text-align: center;
+        }
+        h2 {
+            color: #2F5597;
+            margin-top: 35px;
+            font-size: 22px;
+            border-bottom: 1px solid #D9D9D9;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #41719C;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .meta-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        .meta-table td {
+            padding: 10px;
+            border: 1px solid #D9D9D9;
+        }
+        .meta-table td.label {
+            font-weight: bold;
+            background-color: #F2F2F2;
+            width: 30%;
+        }
+        .chart-box {
+            text-align: center;
+            margin: 35px 0;
+            padding: 20px;
+            border: 1px solid #E0E0E0;
+            background-color: #FCFCFC;
+            border-radius: 6px;
+        }
+        .chart-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .chart-title {
+            font-weight: bold;
+            margin-top: 12px;
+            color: #2F5597;
+            font-size: 15px;
+        }
+        .bullet-list {
+            margin-left: 20px;
+            padding-left: 0;
+        }
+        .bullet-list li {
+            margin-bottom: 10px;
+        }
+        code {
+            background-color: #F2F2F2;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+        }
+        .formula-box {
+            background-color: #F9FBFD;
+            border-left: 4px solid #1F4E79;
+            padding: 15px;
+            margin: 20px 0;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+            text-align: center;
+        }
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 12px;
+            color: #7F7F7F;
+            border-top: 1px solid #D9D9D9;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div style="text-align: center; margin-bottom: 40px;">
+        <h1 style="border: none; margin-bottom: 5px; color: #1F4E79;">MUTUAL FUND ANALYTICS PLATFORM</h1>
+        <p style="font-size: 16px; color: #7F7F7F; margin-top: 0;">Comprehensive Capstone Project I - Implementation & Performance Report</p>
+    </div>
+
+    <table class="meta-table">
+        <tr>
+            <td class="label">Student Name</td>
+            <td>Manimaran A</td>
+        </tr>
+        <tr>
+            <td class="label">Education</td>
+            <td>B.E. Artificial Intelligence and Machine Learning (AIML)</td>
+        </tr>
+        <tr>
+            <td class="label">Internship Role</td>
+            <td>Data Analyst Intern</td>
+        </tr>
+        <tr>
+            <td class="label">Organization</td>
+            <td>Bluestock Fintech</td>
+        </tr>
+        <tr>
+            <td class="label">GitHub Repository</td>
+            <td><a href="https://github.com/Manimaranpro/bluestock_mf_capstone" target="_blank">https://github.com/Manimaranpro/bluestock_mf_capstone</a></td>
+        </tr>
+    </table>
+
+    <h2>1. Executive Summary</h2>
+    <p>This comprehensive report details the end-to-end design, implementation, and verification of the Mutual Fund Analytics Platform (Capstone Project I). The platform addresses the challenges of processing large-scale, heterogeneous financial datasets. Over 46,000 transaction records, 4.5 years of daily NAV values, and detailed portfolio asset structures across 40 schemes were ingested, structured into a relational SQL schema, and modeled using quantitative algorithms to evaluate fund performances and downside risk parameters.</p>
+
+    <h2>2. Data Ingestion & Advanced ETL Pipelines</h2>
+    <p>Raw financial data is frequently prone to anomalies, date-formatting inconsistencies, and missing values due to market holidays. The ETL pipeline was engineered in Python to handle these issues programmatically:</p>
+    <ul class="bullet-list">
+        <li><strong>NAV History Ingestion (02_nav_history.csv)</strong>: Dates were parsed to datetime formats and sorted chronologically by amfi_code and date. Duplicate entries were purged. Missing NAV records on weekends and stock market holidays were resolved using a grouped forward-fill (ffill) operation, and all invalid entries (NAV <= 0) were filtered out.</li>
+        <li><strong>Investor Transactions (08_investor_transactions.csv)</strong>: Transaction types were standardized into Title case (SIP, Lumpsum, or Redemption) to resolve text entry variances. KYC status codes were standardized to uppercase enums, dates were parsed, and transaction amounts were validated to ensure only strictly positive values (amount > 0) were retained.</li>
+        <li><strong>Scheme Performance (07_scheme_performance.csv)</strong>: Cost ratios were validated to filter out anomalies, restricting the expense_ratio_pct variable within the realistic standard operational range of 0.1% to 2.5%.</li>
+    </ul>
+
+    <h2>3. SQLite Relational Database Design (Star Schema)</h2>
+    <p>To support high-frequency querying and visual report integrations, the cleaned files were migrated into a structured SQLite database named <code>bluestock_mf.db</code>. The database utilizes a 3NF Star Schema design with explicit primary and foreign key constraints:</p>
+
+    <h3>Dimension Tables</h3>
+    <ul class="bullet-list">
+        <li><strong>dim_fund</strong>: Holds master metadata for each scheme (AMFI code, fund house, scheme name, category, sub-category, plan, launch date, benchmark index, and risk category).</li>
+        <li><strong>dim_date</strong>: A generated calendar table detailing the year, month, day, and fiscal quarter for every calendar date to facilitate temporal aggregations.</li>
+    </ul>
+
+    <h3>Fact Tables</h3>
+    <ul class="bullet-list">
+        <li><strong>fact_nav</strong>: Stores daily Net Asset Value prices. Foreign keys reference dim_fund and dim_date.</li>
+        <li><strong>fact_transactions</strong>: Stores investor transaction history (amount, type, KYC status, fund, and date keys).</li>
+        <li>**fact_performance**: Stores annualized return statistics (1yr, 3yr, 5yr) and expense ratios.</li>
+        <li>**fact_aum**: Tracks monthly assets under management across fund houses.</li>
+    </ul>
+
+    ---
+
+    ### 4. Advanced Portfolio Analytics & Mathematical Modeling
+    Vectorized matrix operations were built to calculate advanced investment risk-and-return metrics:
+
+    #### **A. Compound Annual Growth Rate (CAGR)**
+    Calculates the annualized growth of the funds over 1-year, 3-year, and 5-year horizons:
+    $$	ext{CAGR} = \left(rac{	ext{NAV}_{	ext{end}}}{	ext{NAV}_{	ext{start}}}ight)^{rac{1}{	ext{Years}}} - 1$$
+
+    #### **B. Sharpe and Sortino Ratios**
+    We evaluated risk-adjusted returns using an annualized risk-free rate proxy of 6.5% (RBI Repo Rate). While the Sharpe ratio measures total volatility, the Sortino ratio focuses exclusively on downside volatility (negative return days only):
+    $$	ext{Sharpe} = rac{R_p - R_f}{\sigma_p} 	imes \sqrt{252}$$
+    $$	ext{Sortino} = rac{R_p - R_f}{\sigma_{	ext{downside}}} 	imes \sqrt{252}$$
+
+    #### **C. OLS Alpha & Beta Parameters**
+    Using matrix covariance models against the Nifty 100 benchmark, we calculated the systematic market sensitivity (Beta) and active excess returns (Alpha):
+    $$eta = rac{	ext{Covariance}(R_p, R_m)}{	ext{Variance}(R_m)}$$
+    $$lpha = (\overline{R_p} - eta 	imes \overline{R_m}) 	imes 252$$
+
+    #### **D. Downside Risk, HHI, and Composite Scorecard**
+    We computed Peak-to-Trough Maximum Drawdowns to quantify downside risk. Furthermore, the Herfindahl-Hirschman Index (HHI) was calculated across portfolio equity allocations to assess concentration risks. Finally, a composite Fund Scorecard (0-100) was compiled using a weighted ranking algorithm:
+    $$	ext{Score} = 30\% 	imes 	ext{Return Rank} + 25\% 	imes 	ext{Sharpe Rank} + 20\% 	imes 	ext{Alpha Rank} + 15\% 	imes 	ext{Expense Rank (inv)} + 10\% 	imes 	ext{Drawdown Rank (inv)}$$
+
+    ---
+
+    <h2>5. Visual Exploratory Analysis & Core Findings</h2>
+
+    <div class="chart-box">
+        <img src="../dashboard/01_nav_trends.png" alt="NAV Trends Chart">
+        <div class="chart-title">Figure 1: Daily NAV Historical Trend (2022-2026)</div>
+        <p style="font-size: 13.5px; color: #555; margin: 10px 30px; text-align: justify;">
+            <strong>Insight</strong>: This time-series line chart represents the historical NAV movement. Shaded vertical regions highlight the 2023 stock market bull run (displaying sharp capital appreciation across equity schemes) followed by the mid-2024 market correction. Gilt and Liquid schemes remained insulated from these market drawdowns, displaying consistent, low-volatility growth trajectories.
+        </p>
+    </div>
+
+    <div class="chart-box">
+        <img src="../dashboard/02_aum_growth.png" alt="AUM Growth Chart">
+        <div class="chart-title">Figure 2: Annual AUM Growth Comparison by Fund House</div>
+        <p style="font-size: 13.5px; color: #555; margin: 10px 30px; text-align: justify;">
+            <strong>Insight</strong>: This grouped bar chart analyzes Assets Under Management (AUM) trends from 2022 to 2025. The data reveals massive market concentration, with SBI Mutual Fund leading the industry, peaking at over ₹12.5 Lakh Crore in AUM by the end of 2025. ICICI Prudential and HDFC Mutual Fund follow as strong competitors, while smaller fund houses display slower growth rates.
+        </p>
+    </div>
+
+    <div class="chart-box">
+        <img src="../dashboard/benchmark_comparison.png" alt="Benchmark Comparison Chart">
+        <div class="chart-title">Figure 3: Top 5 Scorecard Funds vs. Nifty Benchmark</div>
+        <p style="font-size: 13.5px; color: #555; margin: 10px 30px; text-align: justify;">
+            <strong>Insight</strong>: This chart tracks the normalized historical performance (Base 100) of the top 5 funds selected by our composite scorecard against the Nifty benchmark index. All top 5 funds consistently outperformed the market benchmark over the 3-year period. Annualized tracking errors were calculated to quantify their deviations from the index return, highlighting the active management premium.
+        </p>
+    </div>
+
+    <h2>6. Interactive Recommendation System (recommender.py)</h2>
+    <p>To provide a functional utility for final submissions, a CLI-based recommendation engine was written in <code>recommender.py</code>. The script accepts a user's risk appetite (Low, Moderate, or High) as input, filters the scorecard database for matching risk categories, sorts the schemes by their Sharpe ratio, and displays an aligned, optimized recommendation table listing the top 3 mutual funds matching their financial profile.</p>
+
+    <h2>7. Conclusion</h2>
+    <p>The Mutual Fund Analytics Platform successfully demonstrates the integration of modern data engineering pipelines and quantitative financial modeling. By building clean ETL processors, a structured relational SQL database, and advanced analytics algorithms, the platform successfully automates the conversion of raw market transaction logs into structured, visual, and highly reliable financial insights.</p>
+
+    <div class="footer">
+        © 2026 Bluestock Fintech Capstone Submission | Compiled by Manimaran A
+    </div>
+</div>
+
+</body>
+</html>
