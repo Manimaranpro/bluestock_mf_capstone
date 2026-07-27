@@ -1,0 +1,16 @@
+company_id,company_name,sector,P/E,P/B,EV/EBITDA,FCF_yield_pct,5yr_median_PE,PE_vs_sector_median_pct,flag
+1,Nifty 100 Company 1,Consumer,25.4,4.1,15.4,68.488,24.0,5.0,Fair
+2,Nifty 100 Company 2,Materials,25.4,4.1,15.4,364.36,24.0,5.0,Fair
+3,Nifty 100 Company 3,Energy,25.4,4.1,15.4,388.20000000000005,24.0,5.0,Fair
+4,Nifty 100 Company 4,Materials,25.4,4.1,15.4,148.0,24.0,5.0,Fair
+5,Nifty 100 Company 5,Materials,25.4,4.1,15.4,45.584,24.0,5.0,Fair
+6,Nifty 100 Company 6,Technology,25.4,4.1,15.4,89.52000000000001,24.0,5.0,Fair
+7,Nifty 100 Company 7,Energy,25.4,4.1,15.4,341.00800000000004,24.0,5.0,Fair
+8,Nifty 100 Company 8,Energy,25.4,4.1,15.4,193.448,24.0,5.0,Fair
+9,Nifty 100 Company 9,Energy,25.4,4.1,15.4,330.064,24.0,5.0,Fair
+10,Nifty 100 Company 10,Materials,25.4,4.1,15.4,143.99200000000002,24.0,5.0,Fair
+11,Nifty 100 Company 11,Consumer,25.4,4.1,15.4,348.52,24.0,5.0,Fair
+12,Nifty 100 Company 12,Energy,25.4,4.1,15.4,366.472,24.0,5.0,Fair
+13,Nifty 100 Company 13,Materials,25.4,4.1,15.4,44.912000000000006,24.0,5.0,Fair
+14,Nifty 100 Company 14,Technology,25.4,4.1,15.4,182.112,24.0,5.0,Fair
+15,Nifty 100 Company 15,Consumer,25.4,4.1,15.4,207.624,24.0,5.0,Fair
