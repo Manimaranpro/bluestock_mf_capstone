@@ -1,0 +1,185 @@
+company_id,type,rule_id,text,confidence_pct
+1,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+1,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+2,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+2,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+3,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+3,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+4,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+4,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+5,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+5,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+6,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+6,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+7,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+7,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+8,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+8,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+9,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+9,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+10,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+10,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+11,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+11,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+12,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+12,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+13,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+13,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+14,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+14,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+15,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+15,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+16,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+16,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+17,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+17,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+18,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+18,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+19,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+19,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+20,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+20,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+21,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+21,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+22,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+22,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+23,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+23,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+24,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+24,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+25,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+25,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+26,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+26,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+27,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+27,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+28,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+28,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+29,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+29,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+30,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+30,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+31,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+31,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+32,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+32,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+33,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+33,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+34,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+34,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+35,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+35,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+36,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+36,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+37,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+37,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+38,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+38,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+39,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+39,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+40,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+40,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+41,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+41,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+42,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+42,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+43,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+43,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+44,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+44,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+45,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+45,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+46,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+46,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+47,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+47,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+48,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+48,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+49,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+49,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+50,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+50,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+51,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+51,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+52,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+52,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+53,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+53,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+54,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+54,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+55,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+55,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+56,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+56,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+57,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+57,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+58,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+58,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+59,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+59,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+60,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+60,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+61,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+61,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+62,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+62,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+63,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+63,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+64,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+64,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+65,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+65,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+66,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+66,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+67,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+67,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+68,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+68,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+69,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+69,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+70,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+70,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+71,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+71,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+72,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+72,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+73,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+73,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+74,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+74,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+75,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+75,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+76,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+76,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+77,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+77,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+78,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+78,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+79,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+79,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+80,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+80,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+81,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+81,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+82,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+82,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+83,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+83,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+84,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+84,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+85,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+85,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+86,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+86,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+87,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+87,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+88,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+88,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+89,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+89,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+90,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+90,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+91,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+91,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
+92,pro,PRO_03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95.0
+92,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns.,85.0
